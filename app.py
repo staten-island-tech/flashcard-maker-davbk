@@ -7,3 +7,4 @@ class student_mode:
         self.work = work
     def display_info(self):
         return f"Student: {self.name}, Classes: {self.classes}, Work: {self.work}"
+David = student_mode("David", "Chemistry", "Test")
