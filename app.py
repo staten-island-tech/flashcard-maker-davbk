@@ -9,5 +9,6 @@ class User:
 class Student(User):
     def __init__(self, name, email, student_id): 
         self.student_id = student_id
-Class Teacher(User):
-def __init__(self, name, email, teacher_id):
+class Teacher(User):
+    def __init__(self, name, email, teacher_id):
+        self.teacher_id = teacher_id
