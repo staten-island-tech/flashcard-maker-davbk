@@ -18,6 +18,12 @@ w = Teacher()
 w.makekey()
 w.save()
 
+class Student:
+    def __init__(self, answer, points, streak)
+        self.answer = answer
+        self.points = points
+        self.streak = streak
+
 """     def to_dict(self):
         return {"question": self.question, "answer": self.answer}
     def teacher():
