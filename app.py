@@ -19,10 +19,17 @@ w.makekey()
 w.save()
 
 class Student:
-    def __init__(self, answer, points, streak)
-        self.answer = answer
-        self.points = points
+    def __init__(self, bonus_points, streak):
+        self.bonus_points = bonus_points
         self.streak = streak
+        streak = 0
+        points = 0
+    def answers(self):
+        answer = input("enter answer:")
+        if answer == answer:
+            streak += 1
+            points += 1
+
 
 """     def to_dict(self):
         return {"question": self.question, "answer": self.answer}
