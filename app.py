@@ -17,7 +17,10 @@ class Teacher:
 w = Teacher()
 w.makekey()
 w.save()
-
+class Flashcards:
+    def __init__(self, answers, questions):
+        self.answers = answers
+        self.questions = questions
 class Student:
     def __init__(self, bonus_points, streak):
         self.bonus_points = bonus_points
@@ -31,7 +34,7 @@ class Student:
             points += 1
 
 
-"""     def to_dict(self):
+    def to_dict(self):
         return {"question": self.question, "answer": self.answer}
     def teacher():
         flashcards = {}
@@ -41,4 +44,4 @@ class Student:
                 break
             answer = input("Enter answer: ")
             flashcard = Flashcard(question, answer)
-            flashcards.append(flashcard) """
+            flashcards.append(flashcard)
