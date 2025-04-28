@@ -40,7 +40,7 @@ class Student:
 
 def main():
     while True:
-        user_input = input("Choose a class (student/teacher/exit): ").strip().lower()
+        user_input = input("Choose a class (student/teacher/exit): ")
 
         if user_input == "student":
             s = Student()
@@ -50,7 +50,7 @@ def main():
             t.make_flashcards()
             t.save_flashcards()
         elif user_input == "exit":
-            print("Exiting program.")
+            print("exiting")
             break
         else:
             exit
